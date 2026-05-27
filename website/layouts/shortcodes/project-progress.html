@@ -1,0 +1,10 @@
+{{ partial "shortcodes/writing-dashboard-assets.html" . }}
+<section
+  class="writing-dashboard project-progress"
+  data-writing-widget="project-progress"
+  data-project="{{ .Get "project" }}"
+  data-all="{{ .Get "all" | default "false" }}"
+  data-projects-url="{{ .Get "projectsUrl" | default "/data/writing/projects.json" }}"
+  aria-label="Project progress">
+  <p class="writing-dashboard__fallback">Loading project progress...</p>
+</section>

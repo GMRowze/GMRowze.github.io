@@ -1,7 +1,7 @@
 # Hugo output
-Website/public/
-Website/resources/
-Website/.hugo_build.lock
+website/public/
+website/resources/
+website/.hugo_build.lock
 
 # Editor
 .vscode/

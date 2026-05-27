@@ -1,0 +1,30 @@
+\documentclass[12pt,openany]{book}      % paper size is in preamble.sty
+
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%% BOOK INFORMATION %%%%%%%%%%
+\newcommand{\authorname}{Book Author}
+\newcommand{\booktitle}{Your Book’s Title}
+\newcommand{\subtitle}{Your Book’s Subtitle}
+\newcommand{\publisher}{Your Publisher}
+\newcommand{\editionyear}{2020}
+\newcommand{\isbn}{978-3-16-148410-0}   % replace this with your own ISBN
+\title{\booktitle}
+\author{\authorname}
+
+\usepackage{misc/options}
+
+\begin{document}
+\frontmatter
+\input{frontmatter/titlepage}
+% \input{frontmatter/copyrightpage}
+% \input{frontmatter/preface}
+\input{frontmatter/tocpage}
+
+\mainmatter
+\pagestyle{fancy}
+
+\input{content/chapter1}
+
+\end{document}

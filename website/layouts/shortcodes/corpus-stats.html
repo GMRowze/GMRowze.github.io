@@ -1,0 +1,8 @@
+{{ partial "shortcodes/writing-dashboard-assets.html" . }}
+<section
+  class="writing-dashboard corpus-stats"
+  data-writing-widget="corpus"
+  data-stats-url="{{ .Get "statsUrl" | default "/data/writing/stats.json" }}"
+  aria-label="Tracked Corpus statistics">
+  <p class="writing-dashboard__fallback">Loading Tracked Corpus...</p>
+</section>

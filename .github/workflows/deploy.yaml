@@ -25,7 +25,7 @@ concurrency:
 defaults:
   run:
     shell: bash
-    working-directory: Website
+    working-directory: website
 
 jobs:
   # Build job
@@ -62,7 +62,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Website/public
+          path: website/public
 
   # Deployment job
   deploy:

@@ -1,0 +1,5 @@
+{{- if not (.Page.Scratch.Get "writingDashboardAssets") -}}
+  {{- .Page.Scratch.Set "writingDashboardAssets" true -}}
+  <link rel="stylesheet" href="{{ "css/writing-dashboard.css" | relURL }}">
+  <script defer src="{{ "js/writing-dashboard.js" | relURL }}"></script>
+{{- end -}}

@@ -1,0 +1,16 @@
+{{ partial "shortcodes/writing-dashboard-assets.html" . }}
+<section
+  class="writing-dashboard writing-activity"
+  data-writing-widget="activity"
+  data-stats-url="{{ .Get "statsUrl" | default "/data/writing/stats.json" }}"
+  data-github-user="{{ .Get "githubUser" | default site.Params.writing.githubUser }}"
+  data-show-external="{{ .Get "showExternal" | default site.Params.writing.showExternal | default "false" }}"
+  aria-label="Writing activity">
+  <template data-writing-activity-icons>
+    <span data-activity-icon="current">{{ partial "utils/icon.html" (dict "name" "document-text" "attributes" "height=1em width=1em") }}</span>
+    <span data-activity-icon="longest">{{ partial "utils/icon.html" (dict "name" "lightning-bolt" "attributes" "height=1em width=1em") }}</span>
+    <span data-activity-icon="active">{{ partial "utils/icon.html" (dict "name" "calendar" "attributes" "height=1em width=1em") }}</span>
+    <span data-activity-icon="latest">{{ partial "utils/icon.html" (dict "name" "clock" "attributes" "height=1em width=1em") }}</span>
+  </template>
+  <p class="writing-dashboard__fallback">Loading writing activity...</p>
+</section>

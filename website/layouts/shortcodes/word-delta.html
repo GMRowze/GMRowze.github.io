@@ -1,0 +1,9 @@
+{{ partial "shortcodes/writing-dashboard-assets.html" . }}
+<section
+  class="writing-dashboard word-delta"
+  data-writing-widget="word-delta"
+  data-days="{{ .Get "days" | default 365 }}"
+  data-stats-url="{{ .Get "statsUrl" | default "/data/writing/stats.json" }}"
+  aria-label="Words added and removed by day">
+  <p class="writing-dashboard__fallback">Loading daily word changes...</p>
+</section>
