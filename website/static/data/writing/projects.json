@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T15:18:32Z",
+  "generated_at": "2026-05-27T15:33:56Z",
   "version": 1,
   "projects": [
     {
@@ -467,8 +467,8 @@
       }
     },
     {
-      "id": "drowned-gods-md",
-      "title": "Drowned Gods Md",
+      "id": "drowned-gods",
+      "title": "Drowned Gods",
       "target_words_per_chapter": 3000,
       "expected_chapters": 20,
       "chapters": [
@@ -1386,6 +1386,163 @@
       }
     },
     {
+      "id": "red-daugava-vol-i",
+      "title": "Red Daugava Vol I",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "draft",
+          "word_count": 1165,
+          "path": "drafts/books/red_daugava/red_daugava_vol_i/chapter_01.md"
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "draft",
+          "word_count": 268,
+          "path": "drafts/books/red_daugava/red_daugava_vol_i/chapter_02.md"
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "draft",
+          "word_count": 2944,
+          "path": "drafts/books/red_daugava/red_daugava_vol_i/chapter_03.md"
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "draft",
+          "word_count": 1347,
+          "path": "drafts/books/red_daugava/red_daugava_vol_i/chapter_04.md"
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 5724,
+      "counts": {
+        "draft": 4,
+        "missing": 16
+      }
+    },
+    {
       "id": "revolver",
       "title": "A Revolver for the Czar's Frontier",
       "target_words_per_chapter": 3000,
@@ -2031,32 +2188,29 @@
           "number": 1,
           "is_appendix": false,
           "status": "draft",
-          "word_count": 1165,
-          "path": "drafts/books/red_daugava/volume_i/chapter_01.md"
+          "word_count": 1291,
+          "path": "drafts/books/signe/volume_i/chapter_01.md"
         },
         {
           "index": 2,
           "number": 2,
           "is_appendix": false,
-          "status": "draft",
-          "word_count": 268,
-          "path": "drafts/books/red_daugava/volume_i/chapter_02.md"
+          "status": "missing",
+          "word_count": 0
         },
         {
           "index": 3,
           "number": 3,
           "is_appendix": false,
-          "status": "draft",
-          "word_count": 2944,
-          "path": "drafts/books/red_daugava/volume_i/chapter_03.md"
+          "status": "missing",
+          "word_count": 0
         },
         {
           "index": 4,
           "number": 4,
           "is_appendix": false,
-          "status": "draft",
-          "word_count": 1347,
-          "path": "drafts/books/red_daugava/volume_i/chapter_04.md"
+          "status": "missing",
+          "word_count": 0
         },
         {
           "index": 5,
@@ -2171,10 +2325,10 @@
           "word_count": 0
         }
       ],
-      "word_count": 5724,
+      "word_count": 1291,
       "counts": {
-        "draft": 4,
-        "missing": 16
+        "draft": 1,
+        "missing": 19
       }
     },
     {

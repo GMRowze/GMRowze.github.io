@@ -314,13 +314,19 @@ def word_delta_from_git(days: int) -> list[dict]:
             continue
         commit, date = line.split("\t", 1)
         patch = run_git(["show", "--format=", "--unified=0", "--no-ext-diff", commit, "--", "*.md"])
+        text_added = 0
+        text_removed = 0
         for patch_line in patch.splitlines():
             if patch_line.startswith("+++") or patch_line.startswith("---"):
                 continue
             if patch_line.startswith("+"):
-                by_date[date]["words_added"] += count_words(patch_line[1:])
+                text_added += count_words(patch_line[1:])
             elif patch_line.startswith("-"):
-                by_date[date]["words_removed"] += count_words(patch_line[1:])
+                text_removed += count_words(patch_line[1:])
+
+        fallback_added, fallback_removed = local_commit_word_delta(commit)
+        by_date[date]["words_added"] += max(text_added, fallback_added)
+        by_date[date]["words_removed"] += max(text_removed, fallback_removed)
 
     daily = []
     for date in sorted(by_date):
@@ -333,6 +339,35 @@ def word_delta_from_git(days: int) -> list[dict]:
             "net_words": added - removed,
         })
     return daily
+
+
+def local_commit_word_delta(commit: str) -> tuple[int, int]:
+    """Estimate encrypted/binary Markdown deltas from readable local files.
+
+    git-crypt and path-only import commits can produce binary/no-text patches.
+    When the current working tree has the file decrypted, use that local text as
+    a conservative fallback for added files in commits that are ancestors of the
+    current checkout. Deleted encrypted files cannot be safely reconstructed.
+    """
+    status = run_git(["show", "--format=", "--name-status", "--no-renames", commit, "--", "*.md"])
+    added = 0
+    removed = 0
+    for line in status.splitlines():
+        parts = line.split("\t")
+        if len(parts) < 2:
+            continue
+        change, path_text = parts[0], parts[-1]
+        path = ROOT / path_text
+        if change == "A" and path.is_file():
+            text, error = read_text(path)
+            if not error and text is not None:
+                _, body = split_front_matter(text)
+                added += count_words(body)
+        elif change == "D" and path.is_file():
+            # The path exists locally after a case-only rename/import; avoid
+            # treating old casing as removed manuscript text.
+            continue
+    return added, removed
 
 
 def activity_from_daily(daily: list[dict]) -> dict:
