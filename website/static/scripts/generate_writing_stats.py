@@ -170,6 +170,10 @@ def is_marked_private(path: Path, front_matter: dict) -> bool:
     return any(part.lower() in markers for part in path.parts)
 
 
+def is_unorganized_path(path: Path) -> bool:
+    return any(part.lower() == ".unorganized" for part in path.parts)
+
+
 def discover_markdown(scan_roots: list[Path]) -> list[Path]:
     ignored = {".git", "public", "node_modules", ".hugo_build.lock"}
     files = []
@@ -201,7 +205,7 @@ def collect_content(scan_roots: list[Path], target_words: int, expected_chapters
         front_matter, body = split_front_matter(text or "")
         if front_matter.get("writing_stats_exclude") or front_matter.get("stats_exclude"):
             continue
-        project_id = infer_project(path, front_matter)
+        project_id = None if is_unorganized_path(path) else infer_project(path, front_matter)
         status = infer_status(path, front_matter)
         words = count_words(body)
         if is_marked_private(path, front_matter):
@@ -256,6 +260,11 @@ def collect_content(scan_roots: list[Path], target_words: int, expected_chapters
 
 
 def normalize_projects(projects: dict[str, dict]) -> dict:
+    projects = {
+        project_id: project
+        for project_id, project in projects.items()
+        if any(chapter["status"] == "published" for chapter in project["chapters"])
+    }
     for project in projects.values():
         chapters = project["chapters"]
         numbered = [chapter["number"] for chapter in chapters if chapter["number"] and not chapter["is_appendix"]]

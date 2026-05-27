@@ -7,7 +7,7 @@ Hello and welcome to *G.M. Rowze's Archive*, a collection of fiction, essays, hi
 Most of the works hosted here are historical fiction blending mystery, adventure, drama, horror, speculative fiction, and political themes. In the [blog](/blog/), I discuss philosophy, literature, movies and games. But, if you want to read my novels, I am slowly uploading them in the [_books_ section](/books/). I recommend you starting with:
 
 {{< cards >}}
-  {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="images/revolver_cover.png" link="/books/detectives/revolver" >}}
+  {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="images/books/covers/revolver_cover.png" link="/books/detectives/revolver" >}}
   {{< card title="An Open Grave in Edwahlen" subtitle="Two detectives set out in 1898 to investigate a strange murder in a cursed church in an old pagan village." image="images/books/covers/edwahlen_cover.png" link="/books/detectives/open_grave">}}
 {{< /cards >}}
 

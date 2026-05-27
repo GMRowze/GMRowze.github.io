@@ -6,7 +6,7 @@ These are the books written by G.M. Rowze. Currently, no book has been uploaded 
 ## 1. Detectives of the Empire
 
 {{< cards >}}
-    {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="/images/revolver_cover.png" link="/books/detectives/revolver" >}}
+    {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="images/books/covers/revolver_cover.png" link="/books/detectives/revolver" >}}
     {{< card title="An Open Grave in Edwahlen" subtitle="Two detectives set out in 1898 to investigate a strange murder in a cursed church in an old pagan village." image="/images/books/covers/edwahlen_cover.png" link="/books/detectives/open_grave">}}
 {{< /cards >}}
 
