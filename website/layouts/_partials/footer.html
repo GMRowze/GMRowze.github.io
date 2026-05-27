@@ -1,0 +1,21 @@
+{{- $logoPath := .Site.Params.navbar.logo.path | default "logo.svg" -}}
+{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+{{- $logoWidth := .Site.Params.navbar.logo.width | default "24" -}}
+{{- $logoHeight := .Site.Params.navbar.logo.height | default "24" -}}
+
+<footer class="hextra-footer hx:bg-white hx:dark:bg-dark hx:print:bg-transparent">
+  <div class="hextra-max-footer-width hx:mx-auto hx:border-t hx:border-gray-200 hx:px-6 hx:py-6 hx:text-gray-600 hx:dark:border-neutral-800 hx:dark:text-gray-400">
+    <div class="hx:flex hx:flex-col hx:items-center hx:gap-4 hx:text-sm hx:sm:flex-row hx:sm:justify-between">
+      <a class="hx:flex hx:items-center hx:gap-2 hx:text-current hx:no-underline hx:hover:opacity-75" href="{{ .Site.Home.RelPermalink }}">
+        <img class="hx:block hx:dark:hidden" src="{{ $logoPath | relURL }}" alt="" width="{{ $logoWidth }}" height="{{ $logoHeight }}">
+        <img class="hx:hidden hx:dark:block" src="{{ $logoDarkPath | relURL }}" alt="" width="{{ $logoWidth }}" height="{{ $logoHeight }}">
+        <span class="hx:font-medium hx:text-gray-900 hx:dark:text-gray-100">{{ .Site.Title }}</span>
+      </a>
+
+      <div class="hx:flex hx:flex-col hx:items-center hx:gap-2 hx:text-xs hx:sm:flex-row hx:sm:gap-4">
+        <span>© {{ now.Format "2006" }} G.M. Rowze</span>
+        <a class="hx:text-current hx:no-underline hx:hover:text-gray-900 hx:dark:hover:text-gray-100" href="#">Back to top</a>
+      </div>
+    </div>
+  </div>
+</footer>

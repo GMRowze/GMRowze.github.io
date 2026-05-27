@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T15:33:56Z",
+  "generated_at": "2026-05-27T20:38:13Z",
   "version": 1,
   "projects": [
     {
@@ -619,8 +619,8 @@
       }
     },
     {
-      "id": "edwahlen",
-      "title": "Edwahlen",
+      "id": "house",
+      "title": "House",
       "target_words_per_chapter": 3000,
       "expected_chapters": 20,
       "chapters": [
@@ -629,16 +629,15 @@
           "number": 1,
           "is_appendix": false,
           "status": "draft",
-          "word_count": 5016,
-          "path": "drafts/books/detectives/edwahlen/chapter_01.md"
+          "word_count": 1381,
+          "path": "drafts/books/history/house/chapter_01.md"
         },
         {
           "index": 2,
           "number": 2,
           "is_appendix": false,
-          "status": "draft",
-          "word_count": 2938,
-          "path": "drafts/books/detectives/edwahlen/chapter_02.md"
+          "status": "missing",
+          "word_count": 0
         },
         {
           "index": 3,
@@ -767,15 +766,15 @@
           "word_count": 0
         }
       ],
-      "word_count": 7954,
+      "word_count": 1381,
       "counts": {
-        "draft": 2,
-        "missing": 18
+        "draft": 1,
+        "missing": 19
       }
     },
     {
-      "id": "edwahlen-md",
-      "title": "Edwahlen Md",
+      "id": "kingless-kingdoms",
+      "title": "Kingless Kingdoms",
       "target_words_per_chapter": 3000,
       "expected_chapters": 20,
       "chapters": [
@@ -923,160 +922,6 @@
       "word_count": 0,
       "counts": {
         "missing": 20
-      }
-    },
-    {
-      "id": "house",
-      "title": "House",
-      "target_words_per_chapter": 3000,
-      "expected_chapters": 20,
-      "chapters": [
-        {
-          "index": 1,
-          "number": 1,
-          "is_appendix": false,
-          "status": "draft",
-          "word_count": 241,
-          "path": "drafts/books/history/house/chapter_01.md"
-        },
-        {
-          "index": 2,
-          "number": 2,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 3,
-          "number": 3,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 4,
-          "number": 4,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 5,
-          "number": 5,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 6,
-          "number": 6,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 7,
-          "number": 7,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 8,
-          "number": 8,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 9,
-          "number": 9,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 10,
-          "number": 10,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 11,
-          "number": 11,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 12,
-          "number": 12,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 13,
-          "number": 13,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 14,
-          "number": 14,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 15,
-          "number": 15,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 16,
-          "number": 16,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 17,
-          "number": 17,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 18,
-          "number": 18,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 19,
-          "number": 19,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        },
-        {
-          "index": 20,
-          "number": 20,
-          "is_appendix": false,
-          "status": "missing",
-          "word_count": 0
-        }
-      ],
-      "word_count": 241,
-      "counts": {
-        "draft": 1,
-        "missing": 19
       }
     },
     {
@@ -1386,6 +1231,314 @@
       }
     },
     {
+      "id": "modern-abysses",
+      "title": "Modern Abysses",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 0,
+      "counts": {
+        "missing": 20
+      }
+    },
+    {
+      "id": "open-grave",
+      "title": "An Open Grave in Edwahlen",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "published",
+          "word_count": 88,
+          "path": "published/books/detectives/open_grave/chapter_1.md"
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "draft",
+          "word_count": 2938,
+          "path": "drafts/books/detectives/open_grave/chapter_02.md"
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 3026,
+      "counts": {
+        "published": 1,
+        "draft": 1,
+        "missing": 18
+      }
+    },
+    {
       "id": "red-daugava-vol-i",
       "title": "Red Daugava Vol I",
       "target_words_per_chapter": 3000,
@@ -1553,7 +1706,7 @@
           "number": 1,
           "is_appendix": false,
           "status": "published",
-          "word_count": 0,
+          "word_count": 60,
           "path": "published/books/detectives/revolver/chapter_1.md"
         },
         {
@@ -1700,11 +1853,163 @@
           "path": "drafts/books/detectives/revolver/chapter_xx_appendix.md"
         }
       ],
-      "word_count": 20711,
+      "word_count": 20771,
       "counts": {
         "published": 1,
         "draft": 3,
         "missing": 17
+      }
+    },
+    {
+      "id": "revolver-md",
+      "title": "Revolver Md",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 0,
+      "counts": {
+        "missing": 20
       }
     },
     {
@@ -2021,6 +2326,158 @@
       "counts": {
         "draft": 1,
         "missing": 19
+      }
+    },
+    {
+      "id": "two-flowers",
+      "title": "Two Flowers",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 0,
+      "counts": {
+        "missing": 20
       }
     },
     {

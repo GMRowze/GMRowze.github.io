@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import re
 import subprocess
 import sys
@@ -412,6 +413,31 @@ def write_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, sort_keys=False) + "\n", encoding="utf-8")
 
 
+def read_json(path: Path) -> dict | None:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def should_preserve_existing_stats(output: Path, corpus: dict, unavailable: list[dict]) -> bool:
+    if os.environ.get("WRITING_STATS_FORCE") == "1":
+        return False
+    if not unavailable:
+        return False
+
+    existing = read_json(output / "stats.json")
+    if not existing:
+        return False
+
+    existing_total = int(existing.get("corpus", {}).get("total_tracked_words") or 0)
+    new_total = int(corpus.get("total_tracked_words") or 0)
+    if existing_total <= 0:
+        return False
+
+    return new_total < existing_total * 0.75
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Directory for stats.json and projects.json.")
@@ -429,6 +455,14 @@ def main() -> int:
     output = (args.output if args.output.is_absolute() else ROOT / args.output).resolve()
 
     corpus, projects, unavailable = collect_content(scan_roots, args.target_words_per_chapter, args.expected_chapters)
+    if should_preserve_existing_stats(output, corpus, unavailable):
+        print(
+            "Preserving existing writing stats because this build cannot read enough source files. "
+            "Set WRITING_STATS_FORCE=1 to overwrite anyway.",
+            file=sys.stderr,
+        )
+        return 0
+
     daily = word_delta_from_git(args.history_days)
     stats = {
         "generated_at": now_iso(),

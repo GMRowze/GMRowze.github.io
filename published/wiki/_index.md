@@ -1,5 +1,5 @@
 ---
-title: G.M. Rowze Wiki
+title: Rowze's Archive (Wiki)
 ---
 
 (In construction!)

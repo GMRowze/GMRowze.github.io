@@ -1,16 +1,16 @@
 ![](images/cover.png)
 
-
 # G.M. Rowze's Archive
 
 Hello and welcome to *G.M. Rowze's Archive*, a collection of fiction, essays, historical notes, and metafictional projects created by the author *G. M. Rowze*.
 
-Most of the works hosted here are historical fiction blending mystery, adventure, drama, horror, speculative fiction, and political themes. If you are new to the Archive, I would recommend starting directly with the novels:
+Most of the works hosted here are historical fiction blending mystery, adventure, drama, horror, speculative fiction, and political themes. In the [blog](/blog/), I discuss philosophy, literature, movies and games. But, if you want to read my novels, I am slowly uploading them in the [_books_ section](/books/). I recommend you starting with:
 
 {{< cards >}}
-  {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="images/revolver_cover.png" >}}
-  {{< card title="An Open Grave in Edwahlen" subtitle="Two detectives set out in 1898 to investigate a strange murder in a cursed church in an old pagan village." image="images/edwahlen_cover.png" link="/books/detectives/open_grave">}}
+  {{< card title="A Revolver for the Czar's Frontier" subtitle="A western-coded novel set in 1891 in the Ural Mountains about a soldier fighting a band of outlaws." image="images/revolver_cover.png" link="/books/detectives/revolver" >}}
+  {{< card title="An Open Grave in Edwahlen" subtitle="Two detectives set out in 1898 to investigate a strange murder in a cursed church in an old pagan village." image="images/books/covers/edwahlen_cover.png" link="/books/detectives/open_grave">}}
 {{< /cards >}}
+
 
 <hr />
 
@@ -47,3 +47,13 @@ The Archive is intentionally structured in a way that blurs the boundary between
 ### 4. Official Biography
 
 G.M. Rowze is a Latvian-Brazilian folklorist, ethnographer, collector, publisher and writer. Having lived in Curitiba, he studied in France before the war, where he graduated with a Masters in Law, Economy and Management (*Droit, Économie et Gestion*) at the Université de Lille, in northern France. folklore, ethnography, historical fiction, action and mystery.
+
+<center>
+<picture>
+  <!-- <source media="(prefers-color-scheme: dark)" srcset="images/latlander_large_margin_white_by_benedine.png"> -->
+  <img src="images/latlander_large_margin_black_by_benedine.png" style="max-width:10rem"/>
+</picture>
+
+_Lai veicas_
+
+<center>
