@@ -264,7 +264,7 @@ In Part 2, I'll give my personal views on why Latvia lags behind in technology, 
 
 _On a final note: one day in 2021, I (the Archivist) was visiting Luxembourg and stumbled across the Pirate Party headquarters. (There is nothing more to that. I just think it is a neat coincidence)_
 
-![](/files/images/blog_posts/pirate_party.png)
+<img src="/images/blog_posts/pirate_party.png" style="max-width: 10rem" />
 
 _Header image by [Lundgaard & Tranberg Arkitekter A/S](https://www.ltarkitekter.dk/nyheder-en/eu-parlament)_
 

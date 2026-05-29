@@ -42,13 +42,17 @@ menu:
       name: Community
       pageRef: /community
       weight: 4
+    - identifier: trpg
+      name: Game
+      pageRef: /rowzecraft_rpg
+      weight: 5
     - identifier: blog
       name: Blog
       pageRef: /blog
-      weight: 5
+      weight: 7
     - identifier: search
       name: Search
-      weight: 6
+      weight: 8
       params:
         type: search
     - identifier: theme-toggle
