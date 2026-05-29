@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T21:20:38Z",
+  "generated_at": "2026-05-29T21:22:48Z",
   "version": 1,
   "source_roots": [
     "published",
@@ -14,10 +14,10 @@
     "locked_unavailable_files": 0
   },
   "activity": {
-    "current_streak_days": 0,
-    "longest_streak_days": 3,
-    "active_days_total": 3,
-    "latest_writing_day": "2026-05-28"
+    "current_streak_days": 4,
+    "longest_streak_days": 4,
+    "active_days_total": 4,
+    "latest_writing_day": "2026-05-29"
   },
   "daily": [
     {
@@ -37,6 +37,12 @@
       "words_added": 11056,
       "words_removed": 35,
       "net_words": 11021
+    },
+    {
+      "date": "2026-05-29",
+      "words_added": 178,
+      "words_removed": 0,
+      "net_words": 178
     }
   ],
   "unavailable_files": []
