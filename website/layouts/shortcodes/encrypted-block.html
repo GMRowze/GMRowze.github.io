@@ -1,0 +1,17 @@
+{{- partial "shortcodes/encrypted-block-assets.html" . -}}
+{{- $payload := .Inner | strings.TrimSpace -}}
+{{- $id := printf "encrypted-block-%s" (substr (sha256 $payload) 0 12) -}}
+<section class="encrypted-block" id="{{ $id }}" aria-live="polite">
+  <template class="encrypted-block__payload">{{ $payload | safeHTML }}</template>
+  <form class="encrypted-block__form">
+    <label class="encrypted-block__label" for="{{ $id }}-password">Password</label>
+    <div class="encrypted-block__controls">
+      <input class="encrypted-block__input" id="{{ $id }}-password" name="password" type="password" autocomplete="current-password">
+      <button class="encrypted-block__button" type="submit">Unlock</button>
+    </div>
+    <p class="encrypted-block__message" role="status"></p>
+  </form>
+  <noscript>
+    <p class="encrypted-block__message">JavaScript is required to unlock beta review chapters.</p>
+  </noscript>
+</section>

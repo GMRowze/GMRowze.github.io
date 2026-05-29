@@ -1,0 +1,5 @@
+{{- if not (.Page.Scratch.Get "encryptedBlockAssets") -}}
+  {{- .Page.Scratch.Set "encryptedBlockAssets" true -}}
+  <link rel="stylesheet" href="{{ "css/encrypted-block.css" | relURL }}">
+  <script defer src="{{ "js/encrypted-block.js" | relURL }}"></script>
+{{- end -}}
