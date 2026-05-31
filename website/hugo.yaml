@@ -42,9 +42,9 @@ menu:
       name: Community
       pageRef: /community
       weight: 4
-    - identifier: trpg
-      name: Game
-      pageRef: /rowzecraft_rpg
+    - identifier: rowzecraft
+      name: Rowzecraft
+      pageRef: /rowzecraft
       weight: 5
     - identifier: blog
       name: Blog
