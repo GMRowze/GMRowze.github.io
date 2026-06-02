@@ -1,1 +1,2 @@
 drafts/** filter=git-crypt diff=git-crypt
+*.draft.md filter=git-crypt diff=git-crypt
