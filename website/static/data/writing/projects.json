@@ -1,7 +1,161 @@
 {
-  "generated_at": "2026-06-02T00:52:45Z",
+  "generated_at": "2026-06-04T02:44:36Z",
   "version": 1,
   "projects": [
+    {
+      "id": "latlander-vol-1",
+      "title": "Latlander Vol 1",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "published",
+          "word_count": 9490,
+          "path": "published/books/latlander/latlander_vol_1/chapter_01.draft.md"
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 9490,
+      "counts": {
+        "published": 1,
+        "missing": 19
+      }
+    },
     {
       "id": "open-grave",
       "title": "An Open Grave in Edwahlen",
