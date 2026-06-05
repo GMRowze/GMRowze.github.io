@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T02:44:36Z",
+  "generated_at": "2026-06-05T00:56:18Z",
   "version": 1,
   "projects": [
     {
@@ -310,6 +310,158 @@
         "published": 1,
         "draft": 1,
         "missing": 18
+      }
+    },
+    {
+      "id": "revolver-draft-md",
+      "title": "Revolver Draft Md",
+      "target_words_per_chapter": 3000,
+      "expected_chapters": 20,
+      "chapters": [
+        {
+          "index": 1,
+          "number": 1,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 2,
+          "number": 2,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 3,
+          "number": 3,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 4,
+          "number": 4,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 5,
+          "number": 5,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 6,
+          "number": 6,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 7,
+          "number": 7,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 8,
+          "number": 8,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 9,
+          "number": 9,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 10,
+          "number": 10,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 11,
+          "number": 11,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 12,
+          "number": 12,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 13,
+          "number": 13,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 14,
+          "number": 14,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 15,
+          "number": 15,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 16,
+          "number": 16,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 17,
+          "number": 17,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 18,
+          "number": 18,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 19,
+          "number": 19,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        },
+        {
+          "index": 20,
+          "number": 20,
+          "is_appendix": false,
+          "status": "missing",
+          "word_count": 0
+        }
+      ],
+      "word_count": 0,
+      "counts": {
+        "missing": 20
       }
     }
   ]
