@@ -2,6 +2,9 @@ baseURL: "https://gmrowze.github.io/"
 title: Rowze's Archive
 contentDir: ../published
 staticDir: [../files, static]
+ignoreFiles:
+  - '\.draft\.md$'
+cleanDestinationDir: true
 
 ######################## Base Config ########################
 enableGitInfo: true
