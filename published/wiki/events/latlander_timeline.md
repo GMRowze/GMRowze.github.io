@@ -1,5 +1,5 @@
 ---
-title: Timeline
+title: Latlander Timeline
 type: docs
 sidebar:
   open: false

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-08T21:49:49Z",
+  "generated_at": "2026-06-23T22:15:45Z",
   "version": 1,
   "source_roots": [
     "published"
   ],
   "corpus": {
-    "published_words": 476374,
+    "published_words": 480688,
     "draft_words": 18260,
-    "total_tracked_words": 494634,
+    "total_tracked_words": 498948,
     "private_words": 0,
     "private_unavailable_files": 0,
     "locked_unavailable_files": 0
   },
   "activity": {
-    "current_streak_days": 1,
+    "current_streak_days": 0,
     "longest_streak_days": 7,
     "active_days_total": 10,
     "latest_writing_day": "2026-06-08"
@@ -75,9 +75,9 @@
     },
     {
       "date": "2026-06-08",
-      "words_added": 2464,
+      "words_added": 4513,
       "words_removed": 29,
-      "net_words": 2435
+      "net_words": 4484
     }
   ],
   "unavailable_files": []

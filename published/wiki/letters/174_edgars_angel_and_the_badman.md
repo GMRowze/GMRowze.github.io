@@ -1,5 +1,5 @@
 ---
-title: "Letter 174: The Angel and the Badman"
+title: "174: The Angel and the Badman"
 type: docs
 sidebar:
   open: false
